@@ -1,9 +1,11 @@
 export default {
-    entry: 'dist/index.js',
-    dest: 'dist/bundles/azure-mobile-app-services-client.umd.js',
+    input: 'dist/index.js',
     sourceMap: false,
-    format: 'umd',
-    moduleName: 'azure.mobile.app.services.client',
+    output: {
+      file: 'dist/bundles/azure-mobile-app-services-client.umd.js',
+      format: 'umd'      
+    },
+    name: 'azure.mobile.app.services.client',
     globals: {
       '@angular/core': 'ng.core',
       'rxjs/Observable': 'Rx',
@@ -12,5 +14,6 @@ export default {
       'rxjs/add/operator/mergeMap': 'Rx.Observable.prototype',
       'rxjs/add/observable/fromEvent': 'Rx.Observable',
       'rxjs/add/observable/of': 'Rx.Observable'
-    }
+    },
+    external: ['@angular/core']
   }
