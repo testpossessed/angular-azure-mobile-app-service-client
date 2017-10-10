@@ -1,1 +1,1 @@
-[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./src/azure-mobile-app-services-client.module"}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./src/azure-mobile-app-services-client.module"}]}]
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./azure-mobile-app-services-client.module"},{"from":"./azure-mobile-app-services-client.service"}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./azure-mobile-app-services-client.module"},{"from":"./azure-mobile-app-services-client.service"}]}]

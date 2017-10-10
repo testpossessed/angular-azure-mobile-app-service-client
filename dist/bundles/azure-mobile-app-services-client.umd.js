@@ -27,6 +27,7 @@ var AzureMobileAppServicesClientModule = /** @class */ (function () {
 }());
 
 exports.AzureMobileAppServicesClientModule = AzureMobileAppServicesClientModule;
+exports.AzureMobileAppServicesClientService = AzureMobileAppServicesClientService;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 

@@ -1,6 +1,5 @@
 .vscode
 index.ts
-src
 tsconfig*
 rollup.config.js
 test
