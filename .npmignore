@@ -3,4 +3,8 @@ index.ts
 tsconfig*
 rollup.config.js
 test
-**/*.ngsummary.json
+*.ngsummary.json
+*.module.ts
+*.ngfactory.ts
+*.service.ts
+build.js

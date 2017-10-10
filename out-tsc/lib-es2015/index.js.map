@@ -1,0 +1,1 @@
+{"version":3,"sources":["../lib/index.ts"],"names":[],"mappings":"AAAA,OAAC,EAAA,kCAAA,EAAA,MAAA,UAAA,CAAA;AACD,OAAO,EAAC,mCAAmC,EAAC,MAAM,WAAW,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export {AzureMobileAppServicesClientModule} from './module';\r\nexport {AzureMobileAppServicesClientService} from './service';\r\n"]}
