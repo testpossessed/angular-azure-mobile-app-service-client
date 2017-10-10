@@ -1,5 +1,12 @@
 import { Injectable } from '@angular/core';
 export class AzureMobileAppServicesClientService {
+    /**
+     * @param {?} url
+     * @return {?}
+     */
+    init(url) {
+        this.client = new WindowsAzure.MobileServiceClient(url);
+    }
 }
 AzureMobileAppServicesClientService.decorators = [
     { type: Injectable },
@@ -16,5 +23,7 @@ function AzureMobileAppServicesClientService_tsickle_Closure_declarations() {
      * @type {?}
      */
     AzureMobileAppServicesClientService.ctorParameters;
+    /** @type {?} */
+    AzureMobileAppServicesClientService.prototype.client;
 }
 //# sourceMappingURL=service.js.map

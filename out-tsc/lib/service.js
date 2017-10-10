@@ -8,6 +8,9 @@ import { Injectable } from '@angular/core';
 var AzureMobileAppServicesClientService = /** @class */ (function () {
     function AzureMobileAppServicesClientService() {
     }
+    AzureMobileAppServicesClientService.prototype.init = function (url) {
+        this.client = new WindowsAzure.MobileServiceClient(url);
+    };
     AzureMobileAppServicesClientService = __decorate([
         Injectable()
     ], AzureMobileAppServicesClientService);

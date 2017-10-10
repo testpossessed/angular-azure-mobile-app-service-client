@@ -5,6 +5,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { NgModule } from '@angular/core';
+import 'azure-mobile-apps-client';
 import { AzureMobileAppServicesClientService } from './service';
 var AzureMobileAppServicesClientModule = /** @class */ (function () {
     function AzureMobileAppServicesClientModule() {

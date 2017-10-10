@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import 'azure-mobile-apps-client';
 import { AzureMobileAppServicesClientService } from './service';
 var AzureMobileAppServicesClientModule = /** @class */ (function () {
     function AzureMobileAppServicesClientModule() {
