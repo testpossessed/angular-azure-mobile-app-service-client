@@ -1,0 +1,7 @@
+.vscode
+index.ts
+**/*.module.ts
+**/*.service.ts
+tsconfig*
+rollup.config.js
+test
