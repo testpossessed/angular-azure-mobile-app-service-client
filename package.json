@@ -1,0 +1,42 @@
+{
+  "name": "angular-azure-mobile-app-service-client",
+  "version": "1.0.0",
+  "description": "Angular 2+ service encapsulating the functionality of the Azure Mobile App Services SDK",
+  "main": "azure-mobile-app-service-client.bundle.js",
+  "jsnext:main": "azure-mobile-app-service-client.module.js",
+  "module": "azure-mobile-app-service-client.module.js",
+  "types": "azure-mobile-app-service-client.module.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "rollup -c rollup.config.js ./src/azure-mobile-app-services-client.module.js > azure-mobile-app-services-client.bundle.js",
+    "ngc": "./node_modules/.bin/ngc",
+    "package": "npm run bundle && npm run ngc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testpossessed/angular-azure-mobile-app-service-client.git"
+  },
+  "keywords": [
+    "angular",
+    "azure",
+    "javascript",
+    "mobile"
+  ],
+  "author": "Mike Hanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/testpossessed/angular-azure-mobile-app-service-client/issues"
+  },
+  "homepage": "https://github.com/testpossessed/angular-azure-mobile-app-service-client#readme",
+  "devDependencies": {
+    "@angular/compiler-cli": "^4.4.4",
+    "rollup": "^0.50.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@angular/core": "^4.4.4",
+    "azure-mobile-apps-client": "^2.0.1",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.18"
+  }
+}
