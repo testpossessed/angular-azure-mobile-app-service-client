@@ -1,7 +1,7 @@
 .vscode
 index.ts
-**/*.module.ts
-**/*.service.ts
+src
 tsconfig*
 rollup.config.js
 test
+**/*.ngsummary.json

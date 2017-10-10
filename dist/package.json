@@ -1,11 +1,10 @@
 {
   "name": "angular-azure-mobile-app-service-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Angular 2+ service encapsulating the functionality of the Azure Mobile App Services SDK",
-  "main": "azure-mobile-app-service-client.bundle.js",
-  "jsnext:main": "azure-mobile-app-service-client.module.js",
-  "module": "azure-mobile-app-service-client.module.js",
-  "types": "azure-mobile-app-service-client.module.d.ts",
+  "main": "bundles/azure-mobile-app-service-client.umd.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "transpile": "./node_modules/.bin/ngc",
     "package": "rollup -c",

@@ -1,17 +1,16 @@
 export default {
-    name: 'azure-mobile-app-services-client',
-    output: {
-        format: 'umd'        
-    },
-    external: [
-      '@angular/core'
-    ],
-    onwarn: ( warning ) => {
-        const skip_codes = [
-            'THIS_IS_UNDEFINED',
-            'MISSING_GLOBAL_NAME'
-        ];
-        if ( skip_codes.indexOf(warning.code) != -1 ) return;
-        console.error(warning);
+    entry: 'dist/index.js',
+    dest: 'dist/bundles/azure-mobile-app-services-client.umd.js',
+    sourceMap: false,
+    format: 'umd',
+    moduleName: 'azure.mobile.app.services.client',
+    globals: {
+      '@angular/core': 'ng.core',
+      'rxjs/Observable': 'Rx',
+      'rxjs/ReplaySubject': 'Rx',
+      'rxjs/add/operator/map': 'Rx.Observable.prototype',
+      'rxjs/add/operator/mergeMap': 'Rx.Observable.prototype',
+      'rxjs/add/observable/fromEvent': 'Rx.Observable',
+      'rxjs/add/observable/of': 'Rx.Observable'
     }
-  };
+  }
