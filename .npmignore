@@ -8,3 +8,5 @@ test
 *.ngfactory.ts
 *.service.ts
 build.js
+src
+out-tsc
